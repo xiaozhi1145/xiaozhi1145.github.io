@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>反馈页面</title>
+    <link rel="stylesheet" href="./css/feedback.css">
+</head>
+<body>
+    <header>
+        <h1>反馈页面</h1>
+    </header>
+    <main>
+        <form id="feedbackForm" action="https://formspree.io/f/xwpeedag" method="post">
+            <label for="name">姓名:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">您的邮箱:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">主题:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">消息:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">发送反馈</button>
+        </form>
+    </main>
+    <footer>
+        <span>站长QQ：3435705924</span>
+    </footer>
+</body>
+</html>
