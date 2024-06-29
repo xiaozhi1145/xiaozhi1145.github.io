@@ -83,6 +83,7 @@ main {
 }
 
 .download-button {
+    cursor: pointer;
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #007bff;
