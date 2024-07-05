@@ -61,11 +61,10 @@ footer {
     margin-top: 20px;
 }
 
-feedback-Tips {
+.feedback-Tips {
     font-weight:100;
-    color: #ddd;
 }
 
-Feedback-small-Tips {
+.Feedback-small-Tips {
     color: red;
 }
