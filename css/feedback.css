@@ -60,3 +60,12 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+
+feedback-Tips {
+    font-weight:100;
+    color: #ddd;
+}
+
+Feedback-small-Tips {
+    color: red;
+}
