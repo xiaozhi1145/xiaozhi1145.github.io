@@ -142,7 +142,6 @@ footer a:hover {
     box-shadow: 0px 12px 24px gray; /* 悬停时增加阴影 */
 }
 
-.very small title {
-    font-size: px;
-
+section h6{
+    font-weight: 100;
 }
