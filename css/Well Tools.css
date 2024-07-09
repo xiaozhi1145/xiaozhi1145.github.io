@@ -54,6 +54,15 @@ header li {
     margin-right: 2vw;
 }
 
+
+
+
+
+
+
+
+
+
 main {
     padding: 20px;
     margin-top: 80px; /* 确保内容不被固定头部遮挡 */
@@ -64,23 +73,7 @@ main {
     font-size: 40px;
 }
 
-.block {
-    margin: 10px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 8px 20px gray;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加过渡效果 */
-}
 
-.block:hover {
-    transform: translateY(-5px); /* 悬停时向上移动 */
-    box-shadow: 0px 12px 24px gray; /* 悬停时增加阴影 */
-}
 
 .download-button {
     cursor: pointer;
@@ -111,7 +104,7 @@ footer {
     margin-bottom: 0;
 }
 
-footer a, footer span {
+footer a{
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -140,10 +133,6 @@ footer a:hover {
 .Tools:hover {
     transform: translateY(-5px); /* 悬停时向上移动 */
     box-shadow: 0px 12px 24px gray; /* 悬停时增加阴影 */
-}
-
-section h6{
-    font-weight: 100;
 }
 
 .center-title{
