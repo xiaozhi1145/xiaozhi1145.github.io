@@ -140,6 +140,19 @@ footer a:hover {
     font-weight: 100;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
+.menu-items{
+    display:none;
+}
+
+.checkbox{
+    display:none;
+}
+
+
 @media screen and (max-width:768px){
     .A-menu{
         display:none
