@@ -160,7 +160,8 @@ footer a:hover {
     }
 
     header h1{
-        left: 70vw;
+        left:50%;
+        transform: translateX(-50%);
     }
 
     body {

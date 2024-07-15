@@ -133,7 +133,8 @@ header li {
 /* 移动端的css样式 */
 @media screen and (max-width:768px){
     header h1{
-        left: 70vw;
+        left:50%;
+        transform: translateX(-50%);
     }
 
     
