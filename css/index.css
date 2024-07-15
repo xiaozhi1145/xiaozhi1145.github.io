@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -168,6 +169,8 @@ section h6{
 .checkbox{
     display:none;
 }
+
+
 
 /* 移动端的css样式 */
 @media screen and (max-width:768px){
