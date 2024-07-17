@@ -1,0 +1,148 @@
+/* 重置所有元素的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box; /* 确保padding不会增加元素的总宽度 */
+}
+
+
+ header {
+    background-color: #231c1acb;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; /* 确保头部在最上层 */
+}
+    
+
+
+/* 设置body的背景颜色 */
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif; /* 可选：为页面添加字体样式 */
+}
+
+
+
+
+
+
+
+
+.big_title{
+    z-index: 1000;
+    z-index: 1000;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    color: cornflowerblue;
+    margin-top: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title{
+    top: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size:27.5px;
+    z-index: 0; /* 确保菜单层级最高 */
+}body h3{
+    font-weight: 500;
+    top: 130px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size:27.5px;
+    z-index: 0; /* 确保菜单层级最高 */   
+}
+
+body h2{
+    margin-top: 140px;
+    margin-left: 40px;
+
+}
+
+
+body h1{
+    transform: translateX(-50%); /*让标签飞走*/
+}
+
+.player{
+    top: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80vw;
+    height: 45vw;
+}
+
+
+    
+footer {
+    background-color: #231c1acb;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+footer a, footer span {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease; /* 添加过渡效果 */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #00a6ff; /* 悬停时改变颜色 */
+}
+
+
+
+/*下载站css */
+.block {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px gray;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加过渡效果 */
+}
+
+.block:hover {
+    transform: translateY(-5px); /* 悬停时向上移动 */
+    box-shadow: 0px 12px 24px gray; /* 悬停时增加阴影 */
+}
+
+.download-button {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    align-self: flex-end; /* 使按钮靠右对齐 */
+    transition: background-color 0.3s ease; /* 添加过渡效果 */
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
