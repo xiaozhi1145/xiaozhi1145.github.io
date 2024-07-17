@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汉堡菜单示例</title>
+    <link rel="stylesheet" href="./test2.css">
+    <script>
+        const hamburger = document.querySelector('.hamburger-menu');
+        const menu = document.querySelector('.menu');
+
+        hamburger.addEventListener('click', () => {
+        menu.style.width = menu.style.width === '250px' ? '0' : '250px';
+        });
+    </script>
+</head>
+<body>
+
+    <div class="hamburger-menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">服务</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系方式</a></li>
+        </ul>
+    </nav>
+
+    
+</body>
+</html>

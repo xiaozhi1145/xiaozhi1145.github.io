@@ -28,7 +28,6 @@ h1 {
     line-height: 80px;
 }
 
-
 section {
     height: 100vh;
 }
@@ -38,11 +37,6 @@ header ul {
     right: 2vw;
     top: 0;
     line-height: 85px;
-}
-
-
-.menu{
-    display: none;
 }
 
 header a {
@@ -61,6 +55,15 @@ header li {
     margin-right: 2vw;
 }
 
+
+
+
+
+
+
+
+
+
 main {
     padding: 20px;
     margin-top: 80px; /* 确保内容不被固定头部遮挡 */
@@ -71,23 +74,7 @@ main {
     font-size: 40px;
 }
 
-.block {
-    margin: 10px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 8px 20px gray;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加过渡效果 */
-}
 
-.block:hover {
-    transform: translateY(-5px); /* 悬停时向上移动 */
-    box-shadow: 0px 12px 24px gray; /* 悬停时增加阴影 */
-}
 
 .download-button {
     cursor: pointer;
@@ -118,7 +105,7 @@ footer {
     margin-bottom: 0;
 }
 
-footer a, footer span {
+footer a{
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -149,10 +136,6 @@ footer a:hover {
     box-shadow: 0px 12px 24px gray; /* 悬停时增加阴影 */
 }
 
-section h6{
-    font-weight: 100;
-}
-
 .center-title{
     font-size: 30px;
     font-weight: 100;
@@ -171,30 +154,17 @@ section h6{
 }
 
 
-
-/* 移动端的css样式 */
 @media screen and (max-width:768px){
+    .A-menu{
+        display:none
+    }
+
     header h1{
         left:50%;
         transform: translateX(-50%);
     }
 
-    
-
-    /* 隐藏头部选项 */
-    header ul{ 
-        display: none;
-    }
-
-    /* 隐藏默认的导航菜单 */
-    header
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      
-      body {
+    body {
         font-family: "Poppins", sans-serif;
       }
       
@@ -337,8 +307,6 @@ section h6{
 
       .hamburger-lines{
         margin-top: 10px;
-        
-        
         
         
       }
